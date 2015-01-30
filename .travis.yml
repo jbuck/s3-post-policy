@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+- '0.10'
+deploy:
+- provider: npm
+  email: jon@jbuckley.ca
+  api_key:
+    secure: BhvDqFFE3ojTQJwglcdpeq1xNoF7TOgUfLJ599YrDMckuiKzWpK3GXKukAyaamG5vUhSfW/jX/NdPT+30dRw6YuOG3h/XZ6x+1pOC2OM64s1ay/HYovsVqV6QoVIlDnGgS9XibsuKrCaKtlaoePVEve7wxwuO7Wl1bdqRKT/OJg=
+  on:
+    all_branches: true
+    tags: true
+    repo: jbuck/s3-post-policy

@@ -1,0 +1,33 @@
+{
+  "name": "s3-post-policy",
+  "version": "0.0.0",
+  "description": "A POST policy generator for S3 using AWS Signature Version 4",
+  "main": "lib/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "aws4-signature": "^1.0.1",
+    "clone": "^0.2.0",
+    "url-template": "^2.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jbuck/s3-post-policy.git"
+  },
+  "keywords": [
+    "s3",
+    "post",
+    "aws"
+  ],
+  "author": "Jon Buckley <jon@jbuckley.ca>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/jbuck/s3-post-policy/issues"
+  },
+  "homepage": "https://github.com/jbuck/s3-post-policy"
+}
