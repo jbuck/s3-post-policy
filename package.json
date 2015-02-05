@@ -9,6 +9,7 @@
   "dependencies": {
     "aws4-signature": "^1.0.1",
     "clone": "^0.2.0",
+    "joi": "^5.1.0",
     "url-template": "^2.0.4"
   },
   "devDependencies": {},
