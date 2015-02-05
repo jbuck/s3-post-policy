@@ -1,6 +1,6 @@
 {
   "name": "s3-post-policy",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A POST policy generator for S3 using AWS Signature Version 4",
   "main": "lib/index.js",
   "directories": {
