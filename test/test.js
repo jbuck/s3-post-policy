@@ -10,12 +10,13 @@ var output = policy_gen({
     expiration: "2013-08-06T12:00:00.000Z",
     conditions: [
       {"acl": "public-read"},
-      ["starts-with", "$Content-Type", "image/"],
+      ["eq", "$Content-Type", "image/png"],
       ["starts-with", "$key", "user/user1/"],
       ["starts-with", "$x-amz-meta-tag", ""],
+      ["content-length-range", 1, 1000000],
       {"x-amz-meta-uuid": "14365123651274"}
     ]
   }
 });
 
-console.log(output);
+console.log(JSON.stringify(output, null, 4));
